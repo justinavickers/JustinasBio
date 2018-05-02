@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+
+/* Add a black background color to the top navigation */
+ .topnav {
+    margin-top:10px;
+    background-color:#bb99ff;
+    overflow: hidden;
+    border-radius: 15px;
+   border:solid 3px #8787ab;
+}
+
+/* Style the links inside the navigation bar */
+ .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:;
+    
+      
+} 
+
+/* Change the color of links on hover */
+ .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+} 
+
+h1 {
+  margin-top:70px;
+  text-align:center;
+}
+
+body { 
+  background-color: #d2d2e0;
+  width:70%;
+  margin:auto;
+}
+
+  h3 {
+  color:purple;
+  text-align:center;
+}
+
+#McDonalds {
+  font-family: 'Indie Flower';
+  font-size:1.2em;
+  background-color:#bb99ff;
+  overflow: hidden;
+  border-radius: 15px;
+  border:solid 3px #8787ab;
+}
+
+#Twinkleen {
+  font-family: 'Pacifico';
+  background-color:#bb99ff;
+  overflow: hidden;
+  border-radius: 15px;
+  border:solid 3px #8787ab;
+}
+
+#JimmyJohns {
+  font-family: 'Bungee';
+  background-color:#bb99ff;
+  overflow: hidden;
+  border-radius: 15px;
+  border:solid 3px #8787ab;
+}
+
+h1 {
+  text-align:center;
+  font-family:'amatic sc'
+}
+
+h2 {
+  text-align:center;
+  font-family:'pacifico'
+}
+
+h3 {
+  text-align:center;
+  color:purple;
+}
+p {
+  text-align:center;
+/*   line-height:10px; */
+  }
+
+.socialMediaNav {
+ float: right;
+ color: #333;
+}
+  
+input[type=text],select,textarea {
+  width:50%;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:4px;
+  box-sizing: border-box;
+  margin-top:8px;
+  margin-bottom:5px;
+  resize:vertical;
+  }
+
+input[type=Submit] {
+  background-color:white;
+  color:black;
+  padding:6px 11px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+input[type=email] {
+  width:50%;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:4px;
+  box-sizing: border-box;
+  margin-top:8px;
+  margin-bottom:5px;
+  resize:vertical;
+}
+
+.container {
+  border-radius:5px;
+  padding:20px;
+  text-align:center;
+}
+
+li {
+  display: inline;
+}
+
+.favcard {
+  width: 300px;
+  height: 500px;
+  display:inline-grid;
+  margin:10px;
+  top: 50%;
+  left: 50%;
+/*   margin: -250px 0 0 -175px; */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
+  text-align: center;
+}
+  
+ .moon-fever {
+    background: url(https://20ui41tp7v127j03rcnp97oh-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/ching_moon.jpg) no-repeat;
+   background-size:300px 500px;
+  }
+
+.science-fever{
+  background:url(https://images-na.ssl-images-amazon.com/images/I/51c-7nqr-yL._SL300_.jpg)
+    no-repeat;
+  background-size:300px 500px;
+}
+
+.nature-fever{
+  background:url(https://www.cloudhiking.com/assets/images/trails/virgin-falls/virgin.jpg)
+    no-repeat;
+  background-size:300px 500px;
+}
+
+.syfy-fever{
+  background:url(https://image.tmdb.org/t/p/w300_and_h450_bestv2/mWNadwBZIx8NyEw4smGftYtHHrE.jpg)
+    no-repeat;
+  background-size:300px 500px;
+}
+.game-fever{
+  background:url(https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Fallout_4_cover_art.jpg/220px-Fallout_4_cover_art.jpg)
+    no-repeat;
+  background-size:300px 500px;
+}
+
+.animal-fever{
+  background:url(http://www.whats-your-sign.com/images/SymbolicTurtleMeaning.jpg)
+    no-repeat;
+  background-size:300px 500px;
+}
+
+p.favcard{
+  display:
+  }
+
+ .favcard a:hover {
+    background-color:rgba(128,64,0,.5);
+    color: black;
